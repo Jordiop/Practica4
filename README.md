@@ -8,9 +8,9 @@ Práctica 4 de Entornos de Desarrollo
 
 Hemos usado `git init` sobre la carpeta de la práctica para que se iniciara como repositorio 
 
-Posteriormente lo hemos conectado con git remote add origin [link] al repositorio creado previamente. 
+Posteriormente lo hemos conectado con `git remote add origin [link]` al repositorio creado previamente. 
 
-Y finalmente se ha utilizado el comando git push -u origin master, dónde hemos subido el contenido del proyecto java y además hemos creado la rama master
+Y finalmente se ha utilizado el comando `git push -u origin master`, dónde hemos subido el contenido del proyecto java y además hemos creado la rama master
 
 
 ## 2. Crea una rama nueva para desarrollo, y actualiza la versión.
