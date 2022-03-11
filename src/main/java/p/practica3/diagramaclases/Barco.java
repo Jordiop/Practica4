@@ -1,6 +1,10 @@
 
 package p.practica3.diagramaclases;
+import java.text.ParseException;
 import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -11,7 +15,7 @@ public class Barco implements Sonido{
     
     //ATRIBUTOS PRIVADOS
     private String nombre;
-    private Date fechaConstruccion;
+    private Date fechaConstruccion = new Date();
     private int numCamarotes;
     private Motor motor;//objeto 'motor' de clase 'Motor'
     
@@ -36,7 +40,7 @@ public class Barco implements Sonido{
      * @param potencia
      * @param codigo
      */
-    public Barco(String nombre, Date fechaConstruccion, int numCamarotes, String fabricante, String potencia, int codigo){
+    public Barco(String nombre, String fechaConstruccion, int numCamarotes, String fabricante, String potencia, int codigo){
         setNombre(nombre);
         setFechaConstruccion(fechaConstruccion);
         setNumCamarotes(numCamarotes);
@@ -82,8 +86,16 @@ public class Barco implements Sonido{
      *
      * @param fechaConstruccion
      */
-    public void setFechaConstruccion(Date fechaConstruccion){
-        this.fechaConstruccion = fechaConstruccion;
+    public void setFechaConstruccion(String fechaConstruccion){
+        //parser de String a Date
+        SimpleDateFormat formato = new SimpleDateFormat("yyyy/MM/dd");
+        Date fecha = new Date();
+        try {
+            fecha = formato.parse(fechaConstruccion);
+        } catch (ParseException ex) {
+            Logger.getLogger(Barco.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        this.fechaConstruccion = fecha;
     };
     
     /**

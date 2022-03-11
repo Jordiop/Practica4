@@ -1,5 +1,8 @@
 package p.practica3.diagramaclases;
 
+import refactoringPackage.Adulto;
+import refactoringPackage.Juguete;
+import refactoringPackage.Niño;
 import java.util.Scanner;
 import java.util.Date;
 
@@ -35,7 +38,7 @@ public class diagramaClasesMain {
 
         //OBJETO 'titanic' DE CLASE 'Barco'
         //INICIALIZA OBJETO 'motor' DE CLASE 'Motor' EN EL CONSTRUCTOR COMPLETO DE CLASE 'Barco'
-        Barco titanic = new Barco("Titanic", 18600204, 200, "lego", "2000 cv", 1234);
+        Barco titanic = new Barco("Titanic", "1909/09/31", 200, "lego", "2000 cv", 1234);
         System.out.println(titanic.toString());
 
         System.out.println("Describe el sonido del motor: ");
