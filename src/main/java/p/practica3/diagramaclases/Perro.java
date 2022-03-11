@@ -5,7 +5,7 @@ package p.practica3.diagramaclases;
  *
  * @author jordi
  */
-public class Perro extends Mascota implements Sonido{
+public class Perro extends Mascota{
     private String raza;
     
     /**
@@ -49,14 +49,7 @@ public class Perro extends Mascota implements Sonido{
         this.raza = raza;
     };
     
-    //IMPLEMENTACION METODO DE INTERFAZ 'Sonido'
-
-    /**
-     *
-     * @param sonido
-     * @return
-     */
     public String sonido(String sonido){
-      return "El perro suele hacer el siguiente sonido: " + sonido;  
-    };
+        return "El sonido del perro es "+sonido;
+    }
 };

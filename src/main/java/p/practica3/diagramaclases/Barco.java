@@ -10,7 +10,7 @@ import java.util.logging.Logger;
  *
  * @author jordi
  */
-public class Barco implements Sonido{
+public class Barco{
 //ASOCIACION DE COMPOSICIÓN CON CLASE 'Motor'
     
     //ATRIBUTOS PRIVADOS
@@ -114,17 +114,9 @@ public class Barco implements Sonido{
         this.numCamarotes = numCamarotes;
     };
     
-    //
-
-    /**
-     *
-     * @param sonido
-     * @return
-     */
-    @Override
     public String sonido(String sonido){
-        return "El sonido del motor del barco es: "+ sonido;
-    };
+        return "El sonido del motor es "+sonido;
+    }
 };
 
 

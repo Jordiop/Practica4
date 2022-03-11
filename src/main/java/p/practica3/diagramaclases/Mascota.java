@@ -5,7 +5,7 @@ package p.practica3.diagramaclases;
  *
  * @author jordi
  */
-public abstract class Mascota {
+public abstract class Mascota{
 //SUPER-CLASE DE CLASES HIJAS 'Perro' y 'Gato'
     
     //ATRIBUTOS
