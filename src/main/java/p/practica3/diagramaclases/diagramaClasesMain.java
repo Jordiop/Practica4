@@ -59,6 +59,8 @@ public class diagramaClasesMain {
 
         System.out.println("Describe el sonido del gato: ");
         System.out.println(garfield.sonido(keyboard.nextLine()));
+
+        
     }
 ;
 };
