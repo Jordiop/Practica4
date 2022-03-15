@@ -74,7 +74,7 @@ Agregamos una etiqueta de versión utilizando el comando `git tag -l` para lista
 
 ![12-git tags](https://user-images.githubusercontent.com/77643882/158166135-289d568f-1f11-4ea6-861c-91c3f2ebedb2.png)
 
-Actualizamos los tags mediante `git push –tags`.
+Actualizamos los tags mediante `git push -–tags`.
 
 ![13-git push --tags](https://user-images.githubusercontent.com/77643882/158166221-38313ea5-5558-4e81-9839-7ff03724b052.png)
 
