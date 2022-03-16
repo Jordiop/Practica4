@@ -117,5 +117,16 @@ Actualizando los cambios del repositorio local al remoto mediante `git push`.
 
 ## 5. Realiza 2 refactorizaciones más en la rama de desarrollo desde la versión anterior.
 
+Volvemos a clonar a nuestro directorio local la rama de desarrollo con la última versión realizada
+
+![imatge](https://user-images.githubusercontent.com/95173613/158573667-60cf15fd-f86b-4c03-8007-19ea446f0a90.png)
+
+Después, usando NetBeans como IDE refactorizamos
+
+![imatge](https://user-images.githubusercontent.com/95173613/158574108-ff7f6d96-a64a-4bbc-afda-5d14e298ff72.png)
+
+En este caso hemos creado un paquete para las clases que o eran Motor, o hacen uso de el.
+
+
 
 ## 6. Sube a máster lo anterior y actualiza la versión
