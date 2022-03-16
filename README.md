@@ -145,6 +145,6 @@ Y le daremos una versión con `git tag Practica-v.2.1 -m "2.1.0"`
 
 ![imatge](https://user-images.githubusercontent.com/95173613/158576747-760e672a-218b-4c89-bade-478fc7b713ef.png)
 
-
+Y finalizamos con un `git push --all u`
 
 ## 6. Sube a máster lo anterior y actualiza la versión
