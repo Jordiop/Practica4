@@ -129,7 +129,21 @@ Después, usando NetBeans como IDE refactorizamos
 
 ![imatge](https://user-images.githubusercontent.com/95173613/158574108-ff7f6d96-a64a-4bbc-afda-5d14e298ff72.png)
 
-En este caso hemos creado un paquete para las clases que o eran Motor, o hacen uso de el.
+En este caso hemos creado un paquete para las clases que o eran Motor, o hacen uso de el. Podemos apreciar que los archivos *Barco* y *Motor* están marcados en verde, pendientes de agregarse a la *Staging area*. Lo apreciamos con un `git status -s`
+
+![imatge](https://user-images.githubusercontent.com/95173613/158575812-9c985ded-3f84-4c61-8030-bd4572f7af5c.png)
+
+Cuando los cambios estén realizados, aplicaremos `git add .` y posteriormente `git status -s` para comprobar que esté todo correctamente.
+
+![imatge](https://user-images.githubusercontent.com/95173613/158576319-0145515a-e4ed-4961-8bb0-52699edce714.png)
+
+Ahora, le daremos una tag a la nueva versión. Primero listaremos las versiones con `git tag -l`
+
+![imatge](https://user-images.githubusercontent.com/95173613/158576600-66bda8db-efba-4519-886d-932b68b31d98.png)
+
+Y le daremos una versión con `git tag Practica-v.2.1 -m "2.1.0"`
+
+![imatge](https://user-images.githubusercontent.com/95173613/158576747-760e672a-218b-4c89-bade-478fc7b713ef.png)
 
 
 
