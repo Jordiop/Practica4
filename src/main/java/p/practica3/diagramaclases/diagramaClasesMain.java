@@ -1,5 +1,6 @@
 package p.practica3.diagramaclases;
 
+import refactor2.Barco;
 import refactoringPackage.Adulto;
 import refactoringPackage.Juguete;
 import refactoringPackage.Niño;

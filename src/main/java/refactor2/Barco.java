@@ -1,5 +1,5 @@
 
-package p.practica3.diagramaclases;
+package refactor2;
 import java.text.ParseException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
