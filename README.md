@@ -117,9 +117,13 @@ Actualizando los cambios del repositorio local al remoto mediante `git push`.
 
 ## 5. Realiza 2 refactorizaciones más en la rama de desarrollo desde la versión anterior.
 
-Volvemos a clonar a nuestro directorio local la rama de desarrollo con la última versión realizada
+Volvemos a clonar a nuestro directorio local la rama de desarrollo con la última versión realizada.
 
 ![imatge](https://user-images.githubusercontent.com/95173613/158573667-60cf15fd-f86b-4c03-8007-19ea446f0a90.png)
+
+Cambiamos la rama sobre la que trabajamos en GIT antes de realizar alguna acción.
+
+![imatge](https://user-images.githubusercontent.com/95173613/158575191-55e6b154-8f1b-48a2-8dc1-c68d08ca87bb.png)
 
 Después, usando NetBeans como IDE refactorizamos
 
