@@ -153,6 +153,11 @@ La segunda refactorización la realizaremos sobre los nombres de los paquetes.
 
 Una vez refactorizados, realizaremos los mismos pasos que anteriormente.
 
-
-
 ## 6. Sube a máster lo anterior y actualiza la versión
+
+Para subir a *master* nuestra última versión, realizaremos un `merge` con la rama *development* y realizaremos un `git push` para aplicar los cambios
+
+![imatge](https://user-images.githubusercontent.com/95173613/158587311-75a0747a-1d86-4819-9433-f475695aad3e.png)
+
+![imatge](https://user-images.githubusercontent.com/95173613/158587441-902ec753-3fdd-479e-92fd-249220224b83.png)
+
