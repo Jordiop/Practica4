@@ -147,4 +147,12 @@ Y le daremos una versión con `git tag Practica-v.2.1 -m "2.1.0"`
 
 Y finalizamos con un `git push --all -u`
 
+La segunda refactorización la realizaremos sobre los nombres de los paquetes. 
+
+![imatge](https://user-images.githubusercontent.com/95173613/158584178-cc03b7d5-a091-4000-99ba-0e5ad644355c.png)
+
+Una vez refactorizados, realizaremos los mismos pasos que anteriormente.
+
+
+
 ## 6. Sube a máster lo anterior y actualiza la versión
