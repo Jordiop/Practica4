@@ -1,9 +1,9 @@
-package p.practica3.diagramaclases;
+package Animales;
 
-import refactor2.Barco;
-import refactoringPackage.Adulto;
-import refactoringPackage.Juguete;
-import refactoringPackage.Niño;
+import Vehiculos.Barco;
+import Humanos.Adulto;
+import Humanos.Juguete;
+import Humanos.Niño;
 import java.util.Scanner;
 import java.util.Date;
 

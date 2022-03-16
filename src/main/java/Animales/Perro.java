@@ -1,5 +1,5 @@
 
-package p.practica3.diagramaclases;
+package Animales;
 
 /**
  *

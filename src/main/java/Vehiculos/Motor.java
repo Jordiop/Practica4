@@ -1,5 +1,5 @@
 
-package refactor2;
+package Vehiculos;
 
 /**
  *
