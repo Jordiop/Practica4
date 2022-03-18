@@ -169,5 +169,9 @@ Para subir a *master* nuestra última versión, realizaremos un `merge` con la r
 
 ![imatge](https://user-images.githubusercontent.com/95173613/158587441-902ec753-3fdd-479e-92fd-249220224b83.png)
 
+## Diagrama
+
+![diagramaPractica4 drawio](https://user-images.githubusercontent.com/95173613/159026690-c376ec55-0f33-43b6-82f7-5572a6a96978.png)
+
 
 
