@@ -2,6 +2,14 @@
 
 Práctica 4 de Entornos de Desarrollo 
 
+## Índice
+1. [Sube la Práctica3 a github como primera versión en la rama master.](https://github.com/Jordiop/Practica4#1-sube-la-pr%C3%A1ctica3-a-github-como-primera-versi%C3%B3n-en-la-rama-master)
+2. [Crea una rama nueva para desarrollo, y actualiza la versión.](https://github.com/Jordiop/Practica4#2-crea-una-rama-nueva-para-desarrollo-y-actualiza-la-versi%C3%B3n)
+3. [Realiza 2 refactorizaciones.](https://github.com/Jordiop/Practica4#3-realiza-2-refactorizaciones)
+4. [Actualiza la rama master con la nueva versión estable.](https://github.com/Jordiop/Practica4#4-actualiza-la-rama-master-con-la-nueva-versi%C3%B3n-estable)
+5. [Realiza 2 refactorizaciones más en la rama de desarrollo desde la versión anterior.](https://github.com/Jordiop/Practica4#5-realiza-2-refactorizaciones-m%C3%A1s-en-la-rama-de-desarrollo-desde-la-versi%C3%B3n-anterior)
+6. [Sube a máster lo anterior y actualiza la versión](https://github.com/Jordiop/Practica4#6-sube-a-m%C3%A1ster-lo-anterior-y-actualiza-la-versi%C3%B3n)
+
 ## 1. Sube la Práctica3 a github como primera versión en la rama master.
 
 ![primer](https://user-images.githubusercontent.com/95173613/157343854-e10bc4e4-ec97-4d57-b8df-58190e4b8802.png)
@@ -153,7 +161,7 @@ La segunda refactorización la realizaremos sobre los nombres de los paquetes.
 
 Una vez refactorizados, realizaremos los mismos pasos que anteriormente.
 
-## 6. Sube a máster lo anterior y actualiza la versión
+## 6. Sube a máster lo anterior y actualiza la versión.
 
 Para subir a *master* nuestra última versión, realizaremos un `merge` con la rama *development* y realizaremos un `git push` para aplicar los cambios
 
