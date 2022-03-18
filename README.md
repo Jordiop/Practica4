@@ -171,7 +171,7 @@ Para subir a *master* nuestra última versión, realizaremos un `merge` con la r
 
 ## Diagrama
 
-![diagramaPractica4 drawio](https://user-images.githubusercontent.com/95173613/159026690-c376ec55-0f33-43b6-82f7-5572a6a96978.png)
+![transpdiagramaPractica4 drawio](https://user-images.githubusercontent.com/95173613/159026829-a1c16a44-a200-4842-89de-3b300a63b2ae.png)
 
 
 
